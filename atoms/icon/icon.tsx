@@ -1,9 +1,9 @@
 import React from 'react';
 
 import {View, StyleSheet, ViewStyle} from 'react-native';
-// import {FontAwesomeIcon} from '@fortawesome/react-native-fontawesome';
+import {FontAwesomeIcon} from '@fortawesome/react-native-fontawesome';
 
-// import {IconProp} from '@fortawesome/fontawesome-svg-core';
+import {IconProp} from '@fortawesome/fontawesome-svg-core';
 // import {typography} from '../../theme';
 
 export type IconProps = {
@@ -61,12 +61,12 @@ const Icon = ({
         {height, width, justifyContent: 'center', alignItems: 'center'},
         containerStyle,
       ]}>
-      {/* <FontAwesomeIcon
+      <FontAwesomeIcon
         icon={icon}
         size={fontSize}
         color={color}
         style={[style, isRotated ? localStyle.rotateIcon : {}]}
-      /> */}
+      />
     </View>
   );
 };
